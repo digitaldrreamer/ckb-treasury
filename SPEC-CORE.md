@@ -2,7 +2,7 @@
 
 Status: **Draft**  
 Version: **0.2.0**  
-Related: [`self-enforcing-treasury-ckb.md`](./self-enforcing-treasury-ckb.md), [`SPEC-TREASURY.md`](./SPEC-TREASURY.md)
+Related: [`structural-authorization-ckb.md`](./structural-authorization-ckb.md), [`SPEC-TREASURY.md`](./SPEC-TREASURY.md)
 
 This document specifies the **core pattern** only: a CKB cell whose type script permits spending when — and only when — a valid cell of an authorized type appears in the same transaction. No signature. No key. The condition is the authorization.
 
@@ -303,8 +303,8 @@ The guard script does not need to distinguish these rigidly. The minimum require
 
 ## 9. References
 
-- Pattern overview: [`self-enforcing-treasury-ckb.md`](./self-enforcing-treasury-ckb.md)
-- Discussion / prior art: [`self-enforcing-treasury-ckb-comments.md`](./self-enforcing-treasury-ckb-comments.md)
+- Pattern overview: [`structural-authorization-ckb.md`](./structural-authorization-ckb.md)
+- Discussion / prior art: [`structural-authorization-ckb-comments.md`](./structural-authorization-ckb-comments.md)
 - Treasury application: [`SPEC-TREASURY.md`](./SPEC-TREASURY.md)
 - CKB Type ID: https://docs.nervos.org/docs/script/type-id
 - CKB Script intro: https://docs.nervos.org/docs/script/intro-to-script

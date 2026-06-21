@@ -3,7 +3,7 @@
 Status: **Draft**  
 Version: **0.2.0**  
 Depends on: [`SPEC-CORE.md`](./SPEC-CORE.md) (Structural Authorization Pattern)  
-Related: [`self-enforcing-treasury-ckb.md`](./self-enforcing-treasury-ckb.md)
+Related: [`structural-authorization-ckb.md`](./structural-authorization-ckb.md)
 
 This document specifies the **treasury pattern** — a shared, donatable pool built on the structural authorization pattern defined in SPEC-CORE. The pool's capacity can only move when a valid condition cell of an authorized type appears in the same transaction.
 
@@ -356,8 +356,8 @@ These SHOULD be resolved before first mainnet deployment.
 ## 11. References
 
 - Core mechanism: [`SPEC-CORE.md`](./SPEC-CORE.md)
-- Pattern overview: [`self-enforcing-treasury-ckb.md`](./self-enforcing-treasury-ckb.md)
-- Discussion / prior art: [`self-enforcing-treasury-ckb-comments.md`](./self-enforcing-treasury-ckb-comments.md)
+- Pattern overview: [`structural-authorization-ckb.md`](./structural-authorization-ckb.md)
+- Discussion / prior art: [`structural-authorization-ckb-comments.md`](./structural-authorization-ckb-comments.md)
 - CKB `since` / transaction structure: https://docs.nervos.org/docs/tech-explanation/since
 - Live governance implementation: https://github.com/digitaldrreamer/ckb-transaction-firewall
 - UTXO output injection: arXiv:2406.07700
